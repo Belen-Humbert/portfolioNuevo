@@ -69,7 +69,7 @@ const ContactForm = () => {
                       />
                     </svg>
                     <p className="ml-4 text-md tracking-wide font-semibold w-40">
-                      +54 2613601823
+                      +54 2617038693
                     </p>
                   </div>
 
@@ -86,11 +86,11 @@ const ContactForm = () => {
                     </svg>
                     <a
                       className="ml-4 text-md tracking-wide font-semibold w-40"
-                      href="https://www.linkedin.com/in/alejo-montuoridev-9b26ba257"
+                      href="https://www.linkedin.com/in/bel%C3%A9n-humbert/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Alejo Montuori
+                      Belen Humbert
                     </a>
                   </div>
 
@@ -108,12 +108,12 @@ const ContactForm = () => {
                     </svg>
 
                     <a
-                      href="https://github.com/alejomontuori"
+                      href="https://github.com/Belen-Humbert"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="ml-4 text-md tracking-wide font-semibold w-40"
                     >
-                      alejomontuori
+                      belenhumbert
                     </a>
                   </div>
                 </div>

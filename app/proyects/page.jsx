@@ -42,6 +42,54 @@ export default function proyect() {
             link: "https://github.com/Belen-Humbert/proyecto-interfaces.git",
           }}
         />
+        <CardCarousel
+          proyectos={{
+            title: "Veterinaria Pulguitas",
+            description:
+              "Proyecto realizado para la acreditación del espacio curricular Práctica Profesional II. Realizado con PHP, CSS puro, MySQL y Xampp. Se trabajó con encriptación, login, roles y búsqueda de diferentes ítems además de un CRUD para administrar la base de datos de mascotas.",
+            images: [
+              "/img2.png",
+              "/img5.png",
+              "/img6.png",
+            ],
+            link: "https://github.com/Belen-Humbert/Veterinaria-Pulguitas",
+          }}
+        />
+        <CardCarousel
+          proyectos={{
+            title: "Biblioteca Club Página Web",
+            description:
+              "Proyecto realizado para Biblioteca Club, una banda de música under de Lavalle, Mendoza. Tecnologías utilizadas: HTML, CSS y Java Script.",
+            images: [
+              "/img1.png",
+              "/img8.png",
+            ],
+            link: "https://github.com/Belen-Humbert/biblioteca-club",
+          }}
+        />
+        <CardCarousel
+          proyectos={{
+            title: "Adivina la letra",
+            description:
+              "Realizado como pruea técnica para Kodland. El objetivo es encontrar todos los pares de cartas antes de que los enemigos toquen las cartas no emparejadas.",
+            images: [
+              "/img7.png",
+            ],
+            link: "https://github.com/Belen-Humbert/juego-de-memoria",
+          }}
+        />
+        <CardCarousel
+          proyectos={{
+            title: "Proyecto de Scraping - MercadoLibre Argentina",
+            description:
+              "Este proyecto realiza scraping de productos en la categoría smartphones desde MercadoLibre Argentina, guarda los datos y genera distintos archivos CSV con análisis y clasificaciones. Tecnologías utilizadas: Python, Selenium (automatización del navegador), Pandas (procesamiento y análisis de datos) y ChromeDriver.",
+            images: [
+              "/scrap1.png",
+              "/scrapper2.png",
+            ],
+            link: "https://github.com/Belen-Humbert/Proyecto-de-Scraping",
+          }}
+        />
       </div>
     </div>
   );

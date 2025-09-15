@@ -26,15 +26,15 @@ export default function RootLayout({ children }) {
                   <div className="mb-0 lg:mb-4">
                     <Image
                       className="rounded-full"
-                      src="/perfil2.jpg"
-                      alt="Foto de Alejo Monturoi"
+                      src="/perfil2.webp"
+                      alt="Foto de Belen Humbert"
                       width={200}
-                      height={200}
+                      height={200}                                       
                     />
                   </div>
                   <div className="mb-0 lg:mb-6">
                     <h1 className="text-2xl bg-clip-text text-purple-500 font-bold">
-                      Alejo Montuori
+                      Belén Humbert
                     </h1>
                     <p className="text-lg  bg-clip-text text-purple-600 font-semibold">
                       Software Developer
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
                           Correo
                         </p>
                         <p className=" bg-clip-text text-purple-600 font-semibold">
-                          alejomontuori12@gmail.com
+                          belenhumbert69@gmail.com
                         </p>
                       </div>
                     </li>
@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
                           Telefono
                         </p>
                         <p className=" bg-clip-text text-purple-600 font-semibold">
-                          +54 261-3601823
+                          +54 261-7038693
                         </p>
                       </div>
                     </li>
@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
                           Edad
                         </p>
                         <p className=" bg-clip-text text-purple-600 font-semibold">
-                          25
+                          30
                         </p>
                       </div>
                     </li>
