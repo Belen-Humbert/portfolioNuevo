@@ -2,16 +2,12 @@ import "./global.css";
 import Image from "next/image";
 import Link from "next/link";
 import Particles from "./components/Particles";
-import dynamic from "next/dynamic";
-
-const Particles = dynamic(() => import("./components/Particles"), { ssr: false });
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="bg-neutral-900 lg:scrollbar">
-        <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+        <div className="fixed w-full h-full inset-0 -z-10">
           <Particles
           particleColors={['#ffffff', '#240e0eff']}
           particleCount={200}                       
@@ -33,7 +29,7 @@ export default function RootLayout({ children }) {
                   <div className="mb-0 lg:mb-4">
                     <Image
                       className="rounded-full"
-                      src="/perfil2.webp"
+                      src="/perfil21.jpg"
                       alt="Foto de Belen Humbert"
                       width={200}
                       height={200}                                       
