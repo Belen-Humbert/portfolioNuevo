@@ -44,8 +44,8 @@ export default function RootLayout({ children }) {
                     </p>
                   </div>
                   <a
-                    href="/CV_alejoMontuori.pdf"
-                    download="CV_alejoMontuori.pdf"
+                    href="/Belen Humbert dev.pdf"
+                    download="Belen Humbert dev.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-purple-500 text-sm text-center font-semibold -mt-2 px-1 py-1 rounded-lg hover:border border-purple-700 hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
