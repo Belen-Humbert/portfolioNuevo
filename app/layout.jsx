@@ -1,19 +1,26 @@
 import "./global.css";
 import Image from "next/image";
 import Link from "next/link";
-import Squares from "./components/Squares";
+import Particles from "./components/Particles";
+import dynamic from "next/dynamic";
+
+const Particles = dynamic(() => import("./components/Particles"), { ssr: false });
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className="bg-neutral-900 lg:scrollbar">
-        <div className="fixed w-full h-full inset-0 -z-10">
-          <Squares
-            speed={0.5}
-            squareSize={40}
-            direction="down" // up, down, left, right, diagonal
-            borderColor="#9333ea"
-            hoverFillColor="#9333ea"
+        <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+          <Particles
+          particleColors={['#ffffff', '#240e0eff']}
+          particleCount={200}                       
+          particleSpread={10}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
           />
         </div>
         <main className="flex justify-center items-center p-4">
