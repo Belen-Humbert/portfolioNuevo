@@ -155,7 +155,7 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
     <CertificateCard
       title="Técnico Superior en Desarrollo de Software (Instituto de Educación Superior N° 9-024 Lavalle)"
       description="Egresé como Técnica Superior en Desarrollo de Software, adquiriendo conocimientos en programación, desarrollo de aplicaciones y buenas prácticas. Aprendí a diseñar, implementar y mantener soluciones tecnológicas, trabajando con distintas herramientas y lenguajes, sentando una base sólida para mi crecimiento profesional."
-      url="/CertificadoTSDS.pdf"
+      url="https://drive.google.com/file/d/1NCuawGYiuB2l9aKrVYEmRqCx0wj9eN3k/view?usp=sharing"
     />
     <CertificateCard
       title="Técnico Superior en Enología e Industria Frutihortícola (Instituto de Educación Superior N° 9-024 Lavalle)"
