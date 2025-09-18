@@ -16,136 +16,77 @@ Siempre me ha fascinado aprender sobre temas diversos, y encontré en el mundo d
 Si compartís el mismo interés por la tecnología o simplemente querés conocerme mejor, ¡bienvenido a este espacio! No dudes en ponerte en contacto conmigo.
         </p>
       </div>
+      
       <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
-        <h1 className="text-[#9C667D] text-xl font-bold p-2">Tecnologias</h1>
-        <div className="flex flex-col items-center ps-8 p-2 lg:flex-col lg:items-center ">
-          <h3 className="text-[#9C667D] text-lg font-semibold">
-            Lenguajes de programacion
-          </h3>
-          <div className="flex flex-row flex-wrap">
-            <Icono
-              size={50}
-              info={{
-                dir: "/javascript.svg",
-                nom: "Javascript",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/java.svg",
-                nom: "Java",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/python.svg",
-                nom: "Python",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/html5.svg",
-                nom: "Html5",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/css_old.svg",
-                nom: "Css",
-              }}
-            ></Icono>
-          </div>
-          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
-            Frameworks y Librerías
-          </h3>
-          <div className="flex flex-row flex-wrap">
-            <Icono
-              size={50}
-              info={{
-                dir: "/Express.js_dark.svg",
-                nom: "Express",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/django.svg",
-                nom: "Django",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/nodejs.svg",
-                nom: "Node",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/React_dark.svg",
-                nom: "React",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/tailwindcss.svg",
-                nom: "Tailwind",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/bootstrap.svg",
-                nom: "Bootstrap",
-              }}
-            ></Icono>
-          </div>
-          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
-            Base de datos
-          </h3>
-          <div className="flex flex-row flex-wrap">
-            <Icono
-              size={50}
-              info={{
-                dir: "/mysql.svg",
-                nom: "MySql",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/sql-server.svg",
-                nom: "SqlServer",
-              }}
-            ></Icono>
-          </div>
-          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
-            Control de Versiones
-          </h3>
-          <div className="flex flex-row flex-wrap">
-            <Icono
-              size={50}
-              info={{
-                dir: "/git.svg",
-                nom: "Git",
-              }}
-            ></Icono>
-            <Icono
-              size={50}
-              info={{
-                dir: "/github-dark.svg",
-                nom: "GitHub",
-              }}
-            ></Icono>
-          </div>
-        </div>
+  <h1 className="text-[#9C667D] text-xl font-bold p-2">Tecnologias</h1>
+  <div className="flex flex-col items-center ps-8 p-2 lg:flex-col lg:items-center">
+    <h3 className="text-[#9C667D] text-lg font-semibold">
+      Lenguajes de programacion
+    </h3>
+    <div className="flex flex-row flex-wrap">
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/javascript.svg", nom: "Javascript" }} />
       </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/java.svg", nom: "Java" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/python.svg", nom: "Python" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/html5.svg", nom: "Html5" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/css_old.svg", nom: "Css" }} />
+      </div>
+    </div>
+
+    <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
+      Frameworks y Librerías
+    </h3>
+    <div className="flex flex-row flex-wrap">
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/Express.js_dark.svg", nom: "Express" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/django.svg", nom: "Django" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/nodejs.svg", nom: "Node" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/React_dark.svg", nom: "React" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/tailwindcss.svg", nom: "Tailwind" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/bootstrap.svg", nom: "Bootstrap" }} />
+      </div>
+    </div>
+
+    <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">Base de datos</h3>
+    <div className="flex flex-row flex-wrap">
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/mysql.svg", nom: "MySql" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/sql-server.svg", nom: "SqlServer" }} />
+      </div>
+    </div>
+
+    <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">Control de Versiones</h3>
+    <div className="flex flex-row flex-wrap">
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/git.svg", nom: "Git" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/github-dark.svg", nom: "GitHub" }} />
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
   <h1 className="text-[#9C667D] text-xl font-bold p-2">Cursos y Certificaciones</h1>
