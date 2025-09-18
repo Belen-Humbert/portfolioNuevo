@@ -17,13 +17,13 @@
   
     /* Color y diseño del thumb (la parte deslizante) */
     .scrollbar::-webkit-scrollbar-thumb {
-      background: #9333ea; /* Morado */
+      background: #9C667D; /* Morado */
       border-radius: 4px;
     }
   
     /* Hover en el thumb */
     .scrollbar::-webkit-scrollbar-thumb:hover {
-      background: #7e22ce; /* Morado más oscuro */
+      background: #9C667D; /* Morado más oscuro */
     }
   }
   .scrollbar-none::-webkit-scrollbar {

@@ -20,7 +20,7 @@ const CertificateCard = ({ icon, title, description, url }) => {
             download={"CertificadoTSDS.pdf"}
             target="_blank" 
             rel="noopener noreferrer" 
-            className="inline-block rounded-full bg-purple-500 px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-colors-transform duration-300 hover:scale-95 hover:bg-purple-700"
+            className="inline-block rounded-full px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-transform duration-300 hover:scale-95 bg-[#9C667D] hover:bg-[#7F4F63]"
           >
             Ver Credencial
           </a>
@@ -29,6 +29,5 @@ const CertificateCard = ({ icon, title, description, url }) => {
     </div>
   );
 };
-
 
 export default CertificateCard;

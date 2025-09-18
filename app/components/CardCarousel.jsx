@@ -29,12 +29,12 @@ const CardCarousel = ({ proyectos }) => {
             href={proyectos.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-center font-semibold rounded-full px-0.5 hover:border border-purple-700 bg-purple-500"
+            className="text-sm text-center font-semibold rounded-full px-0.5 bg-[#9C667D] hover:bg-[#7a4f62] hover:border border-[#7a4f62] transition-colors"
           >
             Link a repositorio
           </a>
           <button
-            className="sm:hidden text-sm text-center rounded-full font-semibold px-0.5 hover:border border-purple-700 bg-purple-500"
+            className="sm:hidden text-sm text-center rounded-full font-semibold px-0.5 bg-[#9C667D] hover:bg-[#7a4f62] hover:border border-[#7a4f62] transition-colors"
             onClick={() => setMostrar(!mostrar)}
           >
             {mostrar ? "Ocultar Descripcion ⬆️" : "Ver Descripcion ⬇️"}

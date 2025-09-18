@@ -3,7 +3,7 @@ import CardCarousel from "../components/CardCarousel";
 export default function proyect() {
   return (
     <div className="bg-stone-900 p-1 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
-      <h1 className="p-2 font-bold text-purple-500 text-xl">Proyectos</h1>
+      <h1 className="p-2 font-bold text-[#9C667D] text-xl">Proyectos</h1>
       <div className="flex flex-col items-center lg:flex-row lg:flex-wrap lg:ml-8">
         <CardCarousel
           proyectos={{

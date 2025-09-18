@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="">
       <div className="bg-stone-900 p-1 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
-        <h1 className="text-purple-500 text-xl font-bold p-2">Sobre mi</h1>
+        <h1 className="text-[#9C667D] text-xl font-bold p-2">Sobre mi</h1>
         <p className="text-white p-2">
           Hola, soy Belén.
 
@@ -17,9 +17,9 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
         </p>
       </div>
       <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
-        <h1 className="text-purple-500 text-xl font-bold p-2">Tecnologias</h1>
+        <h1 className="text-[#9C667D] text-xl font-bold p-2">Tecnologias</h1>
         <div className="flex flex-col items-center ps-8 p-2 lg:flex-col lg:items-center ">
-          <h3 className="text-purple-600 text-lg font-semibold">
+          <h3 className="text-[#9C667D] text-lg font-semibold">
             Lenguajes de programacion
           </h3>
           <div className="flex flex-row flex-wrap">
@@ -59,7 +59,7 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
               }}
             ></Icono>
           </div>
-          <h3 className="mt-6 text-purple-600 text-lg font-semibold">
+          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
             Frameworks y Librerías
           </h3>
           <div className="flex flex-row flex-wrap">
@@ -106,7 +106,7 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
               }}
             ></Icono>
           </div>
-          <h3 className="mt-6 text-purple-600 text-lg font-semibold">
+          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
             Base de datos
           </h3>
           <div className="flex flex-row flex-wrap">
@@ -125,7 +125,7 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
               }}
             ></Icono>
           </div>
-          <h3 className="mt-6 text-purple-600 text-lg font-semibold">
+          <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">
             Control de Versiones
           </h3>
           <div className="flex flex-row flex-wrap">
@@ -148,7 +148,7 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
       </div>
 
       <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
-  <h1 className="text-purple-500 text-xl font-bold p-2">Cursos y Certificaciones</h1>
+  <h1 className="text-[#9C667D] text-xl font-bold p-2">Cursos y Certificaciones</h1>
   <div className="grid grid-cols-1 gap-8 p-2 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-start">
     
     {/* Primeras dos certificaciones que se mantienen */}

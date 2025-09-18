@@ -9,21 +9,21 @@ export default function RootLayout({ children }) {
       <body className="bg-neutral-900 lg:scrollbar">
         <div className="fixed w-full h-full inset-0 -z-10">
           <Particles
-          particleColors={['#ffffff', '#240e0eff']}
-          particleCount={200}                       
-          particleSpread={10}
-          speed={0.1}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
-          disableRotation={false}
+            particleColors={["#ffffff", "#240e0eff"]}
+            particleCount={200}
+            particleSpread={10}
+            speed={0.1}
+            particleBaseSize={100}
+            moveParticlesOnHover={true}
+            alphaParticles={false}
+            disableRotation={false}
           />
         </div>
         <main className="flex justify-center items-center p-4">
           <div className="w-full h-full p-4">
-            {/* Contenedor principal con dirección de columna en móvil y fila en desktop */}
+            {/* Contenedor principal */}
             <div className="flex flex-col lg:flex-row gap-6">
-              {/* Sidebar - ocupa todo el ancho en móvil, ancho fijo en desktop */}
+              {/* Sidebar */}
               <aside className="grid justify-items-center w-full lg:h-screen lg:w-80 rounded-lg p-4 bg-stone-800">
                 <div className="flex flex-row items-center md:flex-row md:items-center lg:flex-col lg:items-center gap-4 lg:gap-0">
                   <div className="mb-0 lg:mb-4">
@@ -32,14 +32,14 @@ export default function RootLayout({ children }) {
                       src="/perfil21.jpg"
                       alt="Foto de Belen Humbert"
                       width={200}
-                      height={200}                                       
+                      height={200}
                     />
                   </div>
                   <div className="mb-0 lg:mb-6">
-                    <h1 className="text-2xl bg-clip-text text-purple-500 font-bold">
+                    <h1 className="text-2xl bg-clip-text text-[#9C667D] font-bold">
                       Belén Humbert
                     </h1>
-                    <p className="text-lg  bg-clip-text text-purple-600 font-semibold">
+                    <p className="text-lg bg-clip-text text-[#9C667D] font-semibold">
                       Software Developer
                     </p>
                   </div>
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
                     download="Belen Humbert dev.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-purple-500 text-sm text-center font-semibold -mt-2 px-1 py-1 rounded-lg hover:border border-purple-700 hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out"
+                    className="bg-[#9C667D] text-sm text-center font-semibold -mt-2 px-1 py-1 rounded-lg hover:border border-[#9C667D] hover:bg-[#9C667D] hover:opacity-80 hover:scale-105 transition-all duration-300 ease-in-out"
                   >
                     Descargar CV
                   </a>
@@ -57,40 +57,40 @@ export default function RootLayout({ children }) {
                   <ul className="space-y-4">
                     <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
                       <div className="text-center sm:text-left">
-                        <p className=" bg-clip-text text-purple-500 font-bold">
+                        <p className="bg-clip-text text-[#9C667D] font-bold">
                           Correo
                         </p>
-                        <p className=" bg-clip-text text-purple-600 font-semibold">
+                        <p className="bg-clip-text text-[#9C667D] font-semibold">
                           belenhumbert69@gmail.com
                         </p>
                       </div>
                     </li>
                     <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
                       <div className="text-center sm:text-left">
-                        <p className=" bg-clip-text text-purple-500 font-bold">
+                        <p className="bg-clip-text text-[#9C667D] font-bold">
                           Telefono
                         </p>
-                        <p className=" bg-clip-text text-purple-600 font-semibold">
+                        <p className="bg-clip-text text-[#9C667D] font-semibold">
                           +54 261-7038693
                         </p>
                       </div>
                     </li>
                     <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
                       <div className="text-center sm:text-left">
-                        <p className=" bg-clip-text text-purple-500 font-bold">
+                        <p className="bg-clip-text text-[#9C667D] font-bold">
                           Edad
                         </p>
-                        <p className=" bg-clip-text text-purple-600 font-semibold">
+                        <p className="bg-clip-text text-[#9C667D] font-semibold">
                           30
                         </p>
                       </div>
                     </li>
                     <li className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
                       <div className="text-center sm:text-left">
-                        <p className=" bg-clip-text text-purple-500 font-bold">
+                        <p className="bg-clip-text text-[#9C667D] font-bold">
                           Ubicación
                         </p>
-                        <p className=" bg-clip-text text-purple-600 font-semibold">
+                        <p className="bg-clip-text text-[#9C667D] font-semibold">
                           Mendoza, Argentina
                         </p>
                       </div>
@@ -103,34 +103,35 @@ export default function RootLayout({ children }) {
               <div className="p-4 bg-stone-800 rounded-lg w-full lg:max-w-6xl lg:h-auto">
                 {/* Navegación */}
                 <div className="sticky top-2 z-50 flex xs:w-96 w-full h-10 mb-6 justify-center sm:justify-center lg:justify-center">
-                  <nav className="w-auto lg:px-4 rounded-2xl bg-purple-600 shadow-[0px_5px_15px_rgba(147,51,234,0.6)]">
-                    <ul className="flex items-center space-x-2 pt-0.5 lg:py-0 lg:space-x-6">
-                      <li>
-                        <Link
-                          href="/"
-                          className="block px-3 py-2 text-stone-900 hover:bg-purple-900 transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
-                        >
-                          Sobre mi
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/proyects"
-                          className="block px-3 py-2 text-stone-900 hover:bg-purple-900 transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
-                        >
-                          Proyectos
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/contacto"
-                          className="block px-3 py-2 text-stone-900  hover:bg-purple-900 transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
-                        >
-                          Contacto
-                        </Link>
-                      </li>
-                    </ul>
-                  </nav>
+                  <nav className="w-auto lg:px-4 rounded-2xl bg-[#9C667D] shadow-[0px_5px_15px_rgba(156,102,125,0.6)]">
+    <ul className="flex items-center space-x-2 pt-0.5 lg:py-0 lg:space-x-6">
+      <li>
+        <Link
+          href="/"
+          className="block px-3 py-2 text-stone-900 hover:bg-[#7a4f62] transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
+        >
+          Sobre mi
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/proyects"
+          className="block px-3 py-2 text-stone-900 hover:bg-[#7a4f62] transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
+        >
+          Proyectos
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/contacto"
+          className="block px-3 py-2 text-stone-900 hover:bg-[#7a4f62] transition-colors font-bold text-sm rounded-full sm:text-base whitespace-nowrap"
+        >
+          Contacto
+        </Link>
+      </li>
+    </ul>
+  </nav>
+
                 </div>
                 {/* Área de contenido */}
                 <div className="max-w-6xl h-full flex justify-center">
