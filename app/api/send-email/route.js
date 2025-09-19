@@ -1,13 +1,13 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.P_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
   try {
     const { name, email, message } = await req.json();
 
     const data = await resend.emails.send({
-      from: "noreply@resend.dev",  
+      from: "onboarding@resend.dev",  
       to: "belenhumbert69@gmail.com",   
       subject: `Nuevo mensaje de ${name}`,
       text: message,
