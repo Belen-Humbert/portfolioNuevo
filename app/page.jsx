@@ -17,9 +17,10 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
         </p>
       </div>
       
-      <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
+<div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
   <h1 className="text-[#9C667D] text-xl font-bold p-2">Tecnologias</h1>
   <div className="flex flex-col items-center ps-8 p-2 lg:flex-col lg:items-center">
+    
     <h3 className="text-[#9C667D] text-lg font-semibold">
       Lenguajes de programacion
     </h3>
@@ -73,6 +74,9 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
       <div className="transition-transform duration-300 hover:scale-110 m-2">
         <Icono size={50} info={{ dir: "/sql-server.svg", nom: "SqlServer" }} />
       </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/mongodb.svg", nom: "MongoDB" }} />
+      </div>
     </div>
 
     <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">Control de Versiones</h3>
@@ -84,15 +88,28 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
         <Icono size={50} info={{ dir: "/github-dark.svg", nom: "GitHub" }} />
       </div>
     </div>
+
+    <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">Herramientas de Desarrollo</h3>
+    <div className="flex flex-row flex-wrap">
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/docker.svg", nom: "Docker" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/postman.svg", nom: "Postman" }} />
+      </div>
+    </div>
+
   </div>
 </div>
+
+
 
 
       <div className="bg-stone-900 p-1 mt-6 rounded-md shadow-[0px_5px_15px_rgba(0,0,0,1)]">
   <h1 className="text-[#9C667D] text-xl font-bold p-2">Cursos y Certificaciones</h1>
   <div className="grid grid-cols-1 gap-8 p-2 md:grid-cols-2 lg:grid-cols-3 justify-items-center items-start">
     
-    {/* Primeras dos certificaciones que se mantienen */}
+
     <CertificateCard
       title="Técnico Superior en Desarrollo de Software (Instituto de Educación Superior N° 9-024 Lavalle)"
       description="Egresé como Técnica Superior en Desarrollo de Software, adquiriendo conocimientos en programación, desarrollo de aplicaciones y buenas prácticas. Aprendí a diseñar, implementar y mantener soluciones tecnológicas, trabajando con distintas herramientas y lenguajes, sentando una base sólida para mi crecimiento profesional."
@@ -165,6 +182,11 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
     <CertificateCard
       title="Pensamiento Estratégico y Mentalidad Estratégica (Santander Open Academy)"
       description="Aprendí a analizar situaciones y tomar decisiones con visión a largo plazo, identificando oportunidades y riesgos. Desarrollé habilidades para planificar objetivos, resolver problemas complejos y aplicar estrategias efectivas en entornos profesionales y proyectos."
+      url="https://drive.google.com/file/d/1BMdjzl6A55s0vppLWQ5D1Vs-4zcYjI9E/view?usp=sharing"
+    />
+    <CertificateCard
+      title="Lidera a Toda Velocidad: Lecciones de la Formula 1 (Santander Open Academy)"
+      description="A través de casos reales y analogías con el mundo del automovilismo, aprendí a tomar decisiones bajo presión y anticiparme a los cambios con rapidez. El curso también me permitió profundizar en la importancia de la comunicación estratégica y la innovación constante para alcanzar el máximo rendimiento colectivo."
       url="https://drive.google.com/file/d/1BMdjzl6A55s0vppLWQ5D1Vs-4zcYjI9E/view?usp=sharing"
     />
         </div>
