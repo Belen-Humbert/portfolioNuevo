@@ -89,6 +89,21 @@ export default function proyect() {
             link: "https://github.com/Belen-Humbert/Proyecto-de-Scraping",
           }}
         />
+        <CardCarousel
+          proyectos={{
+            title: "Mi Portfolio",
+            description:
+              "Este portfolio está desarrollado con un stack que combina rendimiento y diseño: utiliza Next.js para asegurar una navegación rápida, Tailwind CSS para un estilo visual limpio y completamente responsive, Embla Carousel para presentar los proyectos de forma dinámica e interactiva, Resend para gestionar de manera confiable el envío de correos de contacto y Vercel como plataforma de despliegue en la nube.",
+            images: [
+              "/img9.png",
+              "/img10.png",
+              "/img11.png",
+              "/img12.png",
+            ],
+            link: "https://github.com/Belen-Humbert/portfolioNuevo",
+          }}
+        />
+
       </div>
     </div>
   );
