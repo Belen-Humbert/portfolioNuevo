@@ -70,7 +70,7 @@ export default function proyect() {
           proyectos={{
             title: "Adivina la letra",
             description:
-              "Realizado como pruea técnica para Kodland. El objetivo es encontrar todos los pares de cartas antes de que los enemigos toquen las cartas no emparejadas.",
+              "Realizado como prueba técnica para Kodland. El objetivo es encontrar todos los pares de cartas antes de que los enemigos toquen las cartas no emparejadas.",
             images: [
               "/img7.png",
             ],
