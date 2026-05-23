@@ -33,6 +33,16 @@ const CardCarousel = ({ proyectos }) => {
           >
             Link a repositorio
           </a>
+          {proyectos.deploy && (
+            <a
+              href={proyectos.deploy}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-center font-semibold rounded-full px-0.5 bg-[#9C667D] hover:bg-[#7a4f62] hover:border border-[#7a4f62] transition-colors mt-1 sm:inline-block block"
+            >
+              {proyectos.deployLabel || "Link a la app"}
+            </a>
+          )}
           <button
             className="sm:hidden text-sm text-center rounded-full font-semibold px-0.5 bg-[#9C667D] hover:bg-[#7a4f62] hover:border border-[#7a4f62] transition-colors"
             onClick={() => setMostrar(!mostrar)}

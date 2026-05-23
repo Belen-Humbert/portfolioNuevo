@@ -11,7 +11,9 @@ export default function Home() {
 
 Después de más de 10 años de experiencia como Técnica en Alimentos, decidí seguir mi curiosidad y explorar nuevos horizontes en la programación.
 
-Siempre me ha fascinado aprender sobre temas diversos, y encontré en el mundo de las TIC un campo ideal para seguir expandiendo mis conocimientos y habilidades. Hoy me estoy enfocando en desarrollo web, trabajando con JavaScript, React y Node.js, y buscando aportar mi capacidad de análisis y resolución de problemas en proyectos tecnológicos.
+Siempre me ha fascinado aprender sobre temas diversos, y encontré en el mundo de las TIC un campo ideal para seguir expandiendo mis conocimientos y habilidades. Hoy me estoy enfocando en desarrollo web, trabajando con JavaScript, React y Node.js, aportando mi capacidad de análisis y resolución de problemas en cada proyecto.
+
+Ante la falta de oportunidades laborales en el sector, decidí tomar las riendas y crear mi propio camino: fundé Sushi Software Studio, un estudio de desarrollo independiente con el que ayudo a emprendimientos locales a dar sus primeros pasos en el mundo digital. Cada proyecto es una oportunidad de generar impacto real en personas y negocios reales.
 
 Si compartís el mismo interés por la tecnología o simplemente querés conocerme mejor, ¡bienvenido a este espacio! No dudes en ponerte en contacto conmigo.
         </p>
@@ -77,6 +79,12 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
       <div className="transition-transform duration-300 hover:scale-110 m-2">
         <Icono size={50} info={{ dir: "/mongodb.svg", nom: "MongoDB" }} />
       </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/postgresql.svg", nom: "PostgreSQL" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/supabase.svg", nom: "Supabase" }} />
+      </div>
     </div>
 
     <h3 className="mt-6 text-[#9C667D] text-lg font-semibold">Control de Versiones</h3>
@@ -96,6 +104,12 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
       </div>
       <div className="transition-transform duration-300 hover:scale-110 m-2">
         <Icono size={50} info={{ dir: "/postman.svg", nom: "Postman" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/railway.svg", nom: "Railway" }} />
+      </div>
+      <div className="transition-transform duration-300 hover:scale-110 m-2">
+        <Icono size={50} info={{ dir: "/vercel.svg", nom: "Vercel" }} />
       </div>
     </div>
 
@@ -188,6 +202,16 @@ Si compartís el mismo interés por la tecnología o simplemente querés conocer
       title="Lidera a Toda Velocidad: Lecciones de la Formula 1 (Santander Open Academy)"
       description="A través de casos reales y analogías con el mundo del automovilismo, aprendí a tomar decisiones bajo presión y anticiparme a los cambios con rapidez. El curso también me permitió profundizar en la importancia de la comunicación estratégica y la innovación constante para alcanzar el máximo rendimiento colectivo."
       url="https://drive.google.com/file/d/1BMdjzl6A55s0vppLWQ5D1Vs-4zcYjI9E/view?usp=sharing"
+    />
+    <CertificateCard
+      title="Product Management (Santander Open Academy)"
+      description="Aprendí los fundamentos de la gestión de productos digitales, incluyendo definición de roadmap, priorización de funcionalidades y trabajo con equipos multidisciplinarios. Desarrollé habilidades para identificar necesidades del usuario, traducirlas en requerimientos concretos y tomar decisiones estratégicas orientadas al valor del producto."
+      url="https://drive.google.com/file/d/1o62CLTDfhxL6Jt7qConjZjAqNZdt7nUJ/view?usp=sharing"
+    />
+    <CertificateCard
+      title="Gestión de Proyectos (Santander Open Academy)"
+      description="Profundicé en metodologías y herramientas para la gestión eficiente de proyectos, abarcando planificación, seguimiento de tiempos, gestión de riesgos y comunicación con stakeholders. Adquirí habilidades para liderar equipos, optimizar recursos y asegurar el cumplimiento de objetivos en entornos dinámicos y cambiantes."
+      url="https://drive.google.com/file/d/16qFaEnxNw76oCA_a_vQr5Oeto2Ls88m8/view?usp=sharing"
     />
         </div>
       </div>

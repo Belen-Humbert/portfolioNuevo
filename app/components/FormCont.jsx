@@ -112,6 +112,30 @@ const ContactForm = () => {
                       belenhumbert
                     </a>
                   </div>
+
+                  <div className="flex items-center mt-2 w-56 text-[#9C667D] shadow-inherit border border-transparent hover:border-[#9C667D] rounded-md hover:scale-105 transition-all duration-300 ease-in-out">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      className="w-8 h-8"
+                      fill="none"
+                      stroke="#9C667D"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    <a
+                      href="https://sushisoftwarestudio.com.ar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-4 text-md tracking-wide font-semibold w-40"
+                    >
+                      Sushi Software Studio
+                    </a>
+                  </div>
                 </div>
 
                 <form
